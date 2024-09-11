@@ -5,9 +5,9 @@
 ## Features
 
 - **Fuzz Distortion**: Smooth, heavy fuzz for a thick and aggressive sound.
-- **Octave-Up Mode**: Engage the octave-up effect to add harmonic overtones, creating a sharp and searing top-end.
+- **Octave-Up Mode**: Engage the "OCTAVATE" (octave-up) effect to add harmonic overtones, creating a sharp and searing top-end.
 - **Blend Control**: Mix the dry and wet signals to customize your fuzz intensity.
-- **Gain Control**: Boost the input signal for more aggressive clipping and distortion.
+- **Fuzz Control**: Boost the input signal for more aggressive clipping and distortion.
 - **Low-Pass Filtering**: Automatically applied when the octave-up mode is active, smoothing harsh high frequencies for a refined tone.
 
 ## How It Works
@@ -19,13 +19,8 @@
 ## Controls
 
 - **Fuzz Amount**: Adjust the intensity of the fuzz distortion.
-- **Octave Up**: Toggle the octave-up effect on or off.
+- **OCTAVATE**: Toggle the octave-up effect on or off.
 - **Blend**: Control the mix between the dry (clean) signal and the wet (fuzzed) signal.
-- **Gain**: Boost the input signal for increased distortion and clipping.
-
-Here are the adjusted JUCE installation and usage instructions for your **SonicRIFT Octave Fuzz Audio Plugin** project, based on your GitHub link:
-
----
 
 ## Installation Instructions for **SonicRIFT Octave Fuzz** Plugin
 
