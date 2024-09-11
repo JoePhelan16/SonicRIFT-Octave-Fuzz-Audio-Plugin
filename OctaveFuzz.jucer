@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bA8aka" name="OctaveFuzz" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginName="SonicRIFT"
+              pluginDesc="SonicRIFT Octave Fuzz" pluginManufacturer="UPROARsounds"
+              companyName="UPROARsounds" pluginVST3Category="Distortion,Fx">
+  <MAINGROUP id="r4AlPl" name="OctaveFuzz">
+    <GROUP id="{1459A043-C40C-F7A4-1AAC-2AB137EF69D6}" name="Resources">
+      <FILE id="H8sE9a" name="blueknob.png" compile="0" resource="1" file="../blueknob.png"/>
+      <FILE id="EuBWDc" name="OctavateOn.png" compile="0" resource="1" file="../../OctavateOn.png"/>
+      <FILE id="YaH12l" name="OctavateOFF.png" compile="0" resource="1" file="../../OctavateOFF.png"/>
+      <FILE id="TvVwBZ" name="pedalBackground.jpg" compile="0" resource="1"
+            file="../../pedalBackground.jpg"/>
+      <FILE id="HLZ6hm" name="mainbuttonOn.png" compile="0" resource="1"
+            file="../../mainbuttonOn.png"/>
+      <FILE id="t9oXPv" name="mainbuttonOff.png" compile="0" resource="1"
+            file="../../mainbuttonOff.png"/>
+      <FILE id="wdHHrW" name="Super Caramel.ttf" compile="0" resource="1"
+            file="../../Super Caramel.ttf"/>
+    </GROUP>
+    <GROUP id="{8E903B49-2EB9-2899-1F79-69AE7B7BCBD2}" name="Source">
+      <FILE id="XnzDKx" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="dSrf5L" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="mPZgSw" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="jSxnax" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="XidpJJ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_ASIO="1" JUCE_DIRECTSOUND="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SonicRIFT" headerPath="&quot;C:\Users\ezpawn\Desktop\Plugins\asiosdk_2.3.3_2019-06-14\common&quot;"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SonicRIFT" useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Documents/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
