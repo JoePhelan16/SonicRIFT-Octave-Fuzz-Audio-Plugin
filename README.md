@@ -1,6 +1,7 @@
 # SonicRIFT Octave Fuzz Pedal
 
 **SonicRIFT Octave Fuzz** is a powerful guitar effects pedal that combines fuzz distortion with an octave-up effect for a versatile and dynamic sound. Whether you're seeking warm, saturated fuzz or sharp, high-pitched harmonics, SonicRIFT offers the sonic depth and control to shape your perfect tone.
+
 ![SonicRIFT Octave Fuzz Pedal](SonicRIFTdemo.gif)
 
 ## Features
