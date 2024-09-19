@@ -2,11 +2,6 @@
 
 #include <JuceHeader.h>
 
-
-//==============================================================================
-/**
-    A simple audio processor class for an octave fuzz pedal effect.
-*/
 class OctaveFuzzPedalAudioProcessor : public juce::AudioProcessor
 {
 public:
