@@ -2,12 +2,8 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
-#include "CustomLookAndFeel.h"  // Assuming you have a custom look and feel class
+#include "CustomLookAndFeel.h" 
 
-//==============================================================================
-/**
-    This class is responsible for handling the plugin's GUI.
-*/
 class OctaveFuzzPedalAudioProcessorEditor : public juce::AudioProcessorEditor, public juce::Slider::Listener, private juce::Timer, private juce::MouseListener
 {
 public:
@@ -20,11 +16,6 @@ public:
 
     // Listener for slider changes
     void sliderValueChanged(juce::Slider* slider) override;
-
-    /* Mouse event handlers to show / hide text box on knob hover
-    void mouseEnter(const juce::MouseEvent& event) override;
-    void mouseExit(const juce::MouseEvent& event) override;
-    */
 private:
     OctaveFuzzPedalAudioProcessor& audioProcessor;
     void timerCallback() override;  // Timer callback to periodically update GUI elements
